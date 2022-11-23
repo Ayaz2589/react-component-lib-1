@@ -1,0 +1,26 @@
+{
+  "name": "component-lib-1",
+  "version": "0.0.1",
+  "description": "A React Component Library",
+  "scripts": {
+    "rollup": "rollup -c --bundleConfigAsCjs"
+  },
+  "author": "Ayaz Uddin",
+  "license": "ISC",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/react": "^18.0.25",
+    "react": "^18.2.0",
+    "rollup": "^3.4.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "typescript": "^4.9.3"
+  },
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts"
+}
